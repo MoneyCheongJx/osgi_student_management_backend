@@ -40,7 +40,7 @@ The service is available at http://localhost:8181
 - POST /student    
   Add a new student.
 
-- PUT /student?id=
+- PUT /student?id=&lt;id&gt;  
   Edit details of an existing student.
 
 - DELETE /student/:id    
@@ -57,7 +57,7 @@ The service is available at http://localhost:8181
 - POST /course    
   Add a new course.
 
-- PUT /course?id=   
+- PUT /course?id=&lt;id&gt;     
   Edit details of an existing course.
   
 - DELETE /course/:id    
@@ -71,7 +71,7 @@ The service is available at http://localhost:8181
 - POST /enrollment  
   Add a new enrollment record.
 
-- PUT /enrollment?id=  
+- PUT /enrollment?id=&lt;id&gt;    
   Edit details of an enrollment record.
   
 - DELETE /enrollment/:id  
