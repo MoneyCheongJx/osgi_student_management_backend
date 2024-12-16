@@ -5,7 +5,7 @@
 
 ## Abstract
 
-This example shows how to use JAX-RS to implement a REST service.
+This example shows how to use JAX-RS to implement a REST service integrated with Supabase database.
 
 This example uses blueprint to deal with the jaxrs-server and Apache CXF as the implementation of the JAXRS specification.
 
