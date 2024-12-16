@@ -16,7 +16,7 @@ The "client" bundle uses the `StudentService`,`CourseService`, `EnrollmentServic
 ## Artifacts
 
 * **karaf-rest-example-api** is a common bundle containing the `Student`, `Course`, `Enrollment` POJO and the `StudentService`,`CourseService`, `EnrollmentService` interface.   
-* **karaf-rest-example-whiteboard** is a whiteboard bundle providing the `BookingServiceRest` implementation of the `BookingService` interface.
+* **karaf-rest-example-whiteboard** is a whiteboard bundle providing the `StudentServiceRest` implementation of the `StudentService` interface, `CourseServiceRest` implementation of the `CourseService` interface and `EnrollmentServiceRest` implementation of the `EnrollmentService` interface.
 * **karaf-rest-example-features** provides a Karaf features repository used for the deployment.
 ## Assignment Overview
 
