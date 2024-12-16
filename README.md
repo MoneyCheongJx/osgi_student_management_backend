@@ -20,7 +20,7 @@ The "client" bundle uses the `StudentService`,`CourseService`, `EnrollmentServic
 * **karaf-rest-example-features** provides a Karaf features repository used for the deployment.
 ## Assignment Overview
 
-The Student Management Assignment is designed for staff to handle student, course nd enrollment data in an educational institution, such as a school or university. 
+The Student Management Assignment is designed for staff to handle student, course and enrollment data in an educational institution such as a school or university. 
 
 This OSGi service is accessible via the following API endpoints and is readily for easy integration with a frontend application.
 
@@ -40,7 +40,7 @@ The service is available at http://localhost:8181
 - POST /student    
   Add a new student.
 
-- PUT /student    
+- PUT /student?id=
   Edit details of an existing student.
 
 - DELETE /student/:id    
@@ -57,7 +57,7 @@ The service is available at http://localhost:8181
 - POST /course    
   Add a new course.
 
-- PUT /course   
+- PUT /course?id=   
   Edit details of an existing course.
   
 - DELETE /course/:id    
@@ -71,7 +71,7 @@ The service is available at http://localhost:8181
 - POST /enrollment  
   Add a new enrollment record.
 
-- PUT /enrollment  
+- PUT /enrollment?id=  
   Edit details of an enrollment record.
   
 - DELETE /enrollment/:id  
